@@ -5,7 +5,7 @@ name: container-dev_app_a1ccdcf_env_9bf6a51 Pipeline (Skyu Generated)
       - main
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_90bb344e-a2c7-4432-9c5f-81f4b83aff2c
+    types: pipeline_0b9acf9b-9e0f-4228-8b7a-aeee0686f95f
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.NOTESDEPLOYMENTAPP_CONTAINERDEV_APP_A1CCDCF_ENV_9BF6A51}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
