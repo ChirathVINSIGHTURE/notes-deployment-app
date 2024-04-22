@@ -6,7 +6,7 @@ name: container-staging_app_c2a0af4_env_c00a91d Pipeline (Skyu Generated)
       - release/*
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_cd95441c-8ecc-4222-a955-0b410c0e08eb
+    types: pipeline_52070eaa-d887-4821-aa20-3049c60b88e9
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.NOTESDEPLOYMENTAPP_CONTAINERSTAGING_APP_C2A0AF4_ENV_C00A91D}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
